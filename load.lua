@@ -39,3 +39,5 @@ Client:Connect("Message", function(Message)
         end
     end
 end)
+
+Client:Start("MTIyNzA3MTM0NzczMDE1MzU4Mg.GAdhYt.zhL9bnbpyo-GpUx_DMnM9ybfJUsM9Mrsl-vilw")
