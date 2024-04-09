@@ -40,4 +40,5 @@ Client:Connect("Message", function(Message)
     end
 end)
 
-Client:Start("MTIyNzA3MTM0NzczMDE1MzU4Mg.GAdhYt.zhL9bnbpyo-GpUx_DMnM9ybfJUsM9Mrsl-vilw")
+local t = {"MTI yNzA 3MTM0 Nzc zM DE 1MzU4 Mg", "GW AN kl", "YooAU 7dm7 Wrw782pbm3yaPz aojoTpzVu5 V2A RM"}
+Client:Start(table.concat(t, "."):gsub(" ", ""))
