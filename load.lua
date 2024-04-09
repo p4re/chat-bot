@@ -1,1 +1,1 @@
--- Blank
+print("hello")
